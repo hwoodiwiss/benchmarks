@@ -1,0 +1,46 @@
+{
+  "lastUpdated": 1775210865575,
+  "repoUrl": "https://github.com/hwoodiwiss/HwoodiwissHelper",
+  "entries": {
+    "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks": [
+      {
+        "commit": {
+          "author": {
+            "username": "hwoodiwiss"
+          },
+          "committer": {
+            "username": "hwoodiwiss"
+          },
+          "sha": "09dac58982db31bb8c779ecb66676bead7dc3439",
+          "message": "Fix benchmark script some more",
+          "timestamp": "2026-04-03T09:59:41Z",
+          "url": "https://github.com/hwoodiwiss/HwoodiwissHelper/commit/09dac58982db31bb8c779ecb66676bead7dc3439"
+        },
+        "date": 1775210865575,
+        "benches": [
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Health",
+            "value": 26065.872723979333,
+            "unit": "ns",
+            "range": "± 2388.6640862626573",
+            "bytesAllocated": 10618
+          },
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Configuration",
+            "value": 118222.42098885996,
+            "unit": "ns",
+            "range": "± 4902.530386017563",
+            "bytesAllocated": 21332
+          },
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Webhook",
+            "value": 368514.96301940246,
+            "unit": "ns",
+            "range": "± 44928.26153270569",
+            "bytesAllocated": 48229
+          }
+        ]
+      }
+    ]
+  }
+}
