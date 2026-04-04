@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1775341209458,
+  "lastUpdated": 1775341776497,
   "repoUrl": "https://github.com/hwoodiwiss/HwoodiwissHelper",
   "entries": {
     "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks": [
@@ -190,6 +190,44 @@
             "unit": "ns",
             "range": "± 12147.568515041448",
             "bytesAllocated": 48595
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "hwoodiwiss"
+          },
+          "committer": {
+            "username": "hwoodiwiss"
+          },
+          "sha": "a0fa6c35e8bb4aa0d2bdcb8a9ab31a3a3a31cc6e",
+          "message": "Merge branch 'dotnet-vnext' of github.com:hwoodiwiss/HwoodiwissHelper into dotnet-vnext",
+          "timestamp": "2026-04-04T22:26:40Z",
+          "url": "https://github.com/hwoodiwiss/HwoodiwissHelper/commit/a0fa6c35e8bb4aa0d2bdcb8a9ab31a3a3a31cc6e"
+        },
+        "date": 1775341776497,
+        "benches": [
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Health",
+            "value": 40912.42324571725,
+            "unit": "ns",
+            "range": "± 2166.400831448574",
+            "bytesAllocated": 11136
+          },
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Configuration",
+            "value": 125553.20228407119,
+            "unit": "ns",
+            "range": "± 2602.431384623019",
+            "bytesAllocated": 21995
+          },
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Webhook",
+            "value": 378155.00005580357,
+            "unit": "ns",
+            "range": "± 18345.0654478611",
+            "bytesAllocated": 48345
           }
         ]
       }
