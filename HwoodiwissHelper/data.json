@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1775835052690,
+  "lastUpdated": 1777454509489,
   "repoUrl": "https://github.com/hwoodiwiss/HwoodiwissHelper",
   "entries": {
     "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks": [
@@ -152,6 +152,44 @@
             "unit": "ns",
             "range": "± 50768.92446846273",
             "bytesAllocated": 48055
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "hwoodiwiss"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "eb58f4b4052128653cee8fe8a31c0825e05b6539",
+          "message": "Update HwoodiwissApplication (#208)",
+          "timestamp": "2026-04-29T09:19:00Z",
+          "url": "https://github.com/hwoodiwiss/HwoodiwissHelper/commit/eb58f4b4052128653cee8fe8a31c0825e05b6539"
+        },
+        "date": 1777454509489,
+        "benches": [
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Health",
+            "value": 27857.641944885254,
+            "unit": "ns",
+            "range": "± 2068.6743338159904",
+            "bytesAllocated": 10621
+          },
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Configuration",
+            "value": 117877.30872395834,
+            "unit": "ns",
+            "range": "± 3519.2686603065736",
+            "bytesAllocated": 21332
+          },
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Webhook",
+            "value": 367469.6492229959,
+            "unit": "ns",
+            "range": "± 49537.07019066244",
+            "bytesAllocated": 48128
           }
         ]
       }
