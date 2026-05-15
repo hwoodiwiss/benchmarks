@@ -1,0 +1,46 @@
+{
+  "lastUpdated": 1778880733325,
+  "repoUrl": "https://github.com/hwoodiwiss/HwoodiwissApplication",
+  "entries": {
+    "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks": [
+      {
+        "commit": {
+          "author": {
+            "username": "Copilot"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "22ee71531f8febbde368c7fa35b4ed035fefaf9a",
+          "message": "Replicate HwoodiwissHelper BenchmarkDotNet setup in HwoodiwissApplication (#156)\n\n* Add BenchmarkDotNet project and benchmark workflows\n\nAgent-Logs-Url: https://github.com/hwoodiwiss/HwoodiwissApplication/sessions/bbea9f25-2746-4df2-aa55-5105ca826daa\n\nCo-authored-by: hwoodiwiss <2156707+hwoodiwiss@users.noreply.github.com>\n\n* Fix benchmark project execution and analyzer compliance\n\nAgent-Logs-Url: https://github.com/hwoodiwiss/HwoodiwissApplication/sessions/bbea9f25-2746-4df2-aa55-5105ca826daa\n\nCo-authored-by: hwoodiwiss <2156707+hwoodiwiss@users.noreply.github.com>\n\n* Harden benchmark workflow and dispose benchmark responses\n\nAgent-Logs-Url: https://github.com/hwoodiwiss/HwoodiwissApplication/sessions/bbea9f25-2746-4df2-aa55-5105ca826daa\n\nCo-authored-by: hwoodiwiss <2156707+hwoodiwiss@users.noreply.github.com>\n\n* Read benchmark response content to measure full request cycle\n\nAgent-Logs-Url: https://github.com/hwoodiwiss/HwoodiwissApplication/sessions/bbea9f25-2746-4df2-aa55-5105ca826daa\n\nCo-authored-by: hwoodiwiss <2156707+hwoodiwiss@users.noreply.github.com>\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: hwoodiwiss <2156707+hwoodiwiss@users.noreply.github.com>",
+          "timestamp": "2026-05-15T17:26:09Z",
+          "url": "https://github.com/hwoodiwiss/HwoodiwissApplication/commit/22ee71531f8febbde368c7fa35b4ed035fefaf9a"
+        },
+        "date": 1778880733325,
+        "benches": [
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.Health",
+            "value": 36364.002000458386,
+            "unit": "ns",
+            "range": "± 2994.883693653531",
+            "bytesAllocated": 10828
+          },
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.Configuration",
+            "value": 132029.6003268495,
+            "unit": "ns",
+            "range": "± 5211.5530099914995",
+            "bytesAllocated": 23117
+          },
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.WeatherForecast",
+            "value": 71216.76976318359,
+            "unit": "ns",
+            "range": "± 2528.5397385554083",
+            "bytesAllocated": 13361
+          }
+        ]
+      }
+    ]
+  }
+}
