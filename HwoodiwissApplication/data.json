@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1778880733325,
+  "lastUpdated": 1778897649105,
   "repoUrl": "https://github.com/hwoodiwiss/HwoodiwissApplication",
   "entries": {
     "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks": [
@@ -38,6 +38,44 @@
             "unit": "ns",
             "range": "± 2528.5397385554083",
             "bytesAllocated": 13361
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "hwoodiwiss"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b876cdb492475520f141749667c7518e91b3638d",
+          "message": "Fix artifact upload globs (#158)",
+          "timestamp": "2026-05-16T02:11:58Z",
+          "url": "https://github.com/hwoodiwiss/HwoodiwissApplication/commit/b876cdb492475520f141749667c7518e91b3638d"
+        },
+        "date": 1778897649105,
+        "benches": [
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.Health",
+            "value": 25427.201975176413,
+            "unit": "ns",
+            "range": "± 1769.9806852620932",
+            "bytesAllocated": 10858
+          },
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.Configuration",
+            "value": 111231.09742647059,
+            "unit": "ns",
+            "range": "± 2279.800592899681",
+            "bytesAllocated": 23129
+          },
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.WeatherForecast",
+            "value": 74655.46478721217,
+            "unit": "ns",
+            "range": "± 4968.098576718725",
+            "bytesAllocated": 13358
           }
         ]
       }
