@@ -1,0 +1,46 @@
+{
+  "lastUpdated": 1779103410786,
+  "repoUrl": "https://github.com/hwoodiwiss/HwoodiwissApplication",
+  "entries": {
+    "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks": [
+      {
+        "commit": {
+          "author": {
+            "username": "hwoodiwiss"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "72a21f30b29d101923d038e89079ee28e9753ed0",
+          "message": "Merge branch 'main' into dotnet-vnext",
+          "timestamp": "2026-05-15T17:26:43Z",
+          "url": "https://github.com/hwoodiwiss/HwoodiwissApplication/commit/72a21f30b29d101923d038e89079ee28e9753ed0"
+        },
+        "date": 1779103410786,
+        "benches": [
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.Health",
+            "value": 36808.00015258789,
+            "unit": "ns",
+            "range": "± 2715.154258431923",
+            "bytesAllocated": 10847
+          },
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.Configuration",
+            "value": 114161.86429091632,
+            "unit": "ns",
+            "range": "± 5032.124166470273",
+            "bytesAllocated": 23116
+          },
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.WeatherForecast",
+            "value": 68793.82442382812,
+            "unit": "ns",
+            "range": "± 2775.479650621026",
+            "bytesAllocated": 13358
+          }
+        ]
+      }
+    ]
+  }
+}
