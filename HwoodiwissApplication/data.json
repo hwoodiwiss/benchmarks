@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1779103410786,
+  "lastUpdated": 1781037720770,
   "repoUrl": "https://github.com/hwoodiwiss/HwoodiwissApplication",
   "entries": {
     "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks": [
@@ -38,6 +38,44 @@
             "unit": "ns",
             "range": "± 2775.479650621026",
             "bytesAllocated": 13358
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "hwoodiwiss"
+          },
+          "committer": {
+            "username": "hwoodiwiss"
+          },
+          "sha": "d7aaa96031ff4a50756585af527f50cf50c9f671",
+          "message": "Merge branch 'main' into dotnet-vnext",
+          "timestamp": "2026-06-09T20:40:03Z",
+          "url": "https://github.com/hwoodiwiss/HwoodiwissApplication/commit/d7aaa96031ff4a50756585af527f50cf50c9f671"
+        },
+        "date": 1781037720770,
+        "benches": [
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.Health",
+            "value": 13790.221090064859,
+            "unit": "ns",
+            "range": "± 575.051599191272",
+            "bytesAllocated": 10844
+          },
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.Configuration",
+            "value": 61690.11242145041,
+            "unit": "ns",
+            "range": "± 2375.508348919152",
+            "bytesAllocated": 23195
+          },
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.WeatherForecast",
+            "value": 42726.43881225586,
+            "unit": "ns",
+            "range": "± 1680.484323847736",
+            "bytesAllocated": 13403
           }
         ]
       }
