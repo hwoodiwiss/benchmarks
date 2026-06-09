@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1781037705673,
+  "lastUpdated": 1781039434545,
   "repoUrl": "https://github.com/hwoodiwiss/HwoodiwissHelper",
   "entries": {
     "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks": [
@@ -494,6 +494,44 @@
             "unit": "ns",
             "range": "± 11790.768868167543",
             "bytesAllocated": 48343
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "hwoodiwiss"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ea3b6a24f92e43a027d6b490f70ef67600e154cc",
+          "message": "Update to .NET 11 Preview 5 (#219)\n\nUpdates to .NET 11 Preview 5, including opting in to AOT dotnet CLI",
+          "timestamp": "2026-06-09T21:07:25Z",
+          "url": "https://github.com/hwoodiwiss/HwoodiwissHelper/commit/ea3b6a24f92e43a027d6b490f70ef67600e154cc"
+        },
+        "date": 1781039434545,
+        "benches": [
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Health",
+            "value": 42229.701132417926,
+            "unit": "ns",
+            "range": "± 2650.4977227712734",
+            "bytesAllocated": 11468
+          },
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Configuration",
+            "value": 143398.85756138392,
+            "unit": "ns",
+            "range": "± 1494.822207756125",
+            "bytesAllocated": 22160
+          },
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Webhook",
+            "value": 307037.27183948865,
+            "unit": "ns",
+            "range": "± 26554.829873812523",
+            "bytesAllocated": 48510
           }
         ]
       }
