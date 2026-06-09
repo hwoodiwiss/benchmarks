@@ -1,0 +1,72 @@
+{
+  "lastUpdated": 1781044394428,
+  "repoUrl": "https://github.com/hwoodiwiss/ArgumentativeFilters",
+  "entries": {
+    "ArgumentativeFilters.Benchmarks.GeneratorBenchmarks": [
+      {
+        "commit": {
+          "author": {
+            "username": "hwoodiwiss"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "69e9c2b7bd28ee1ab61f2f72aa2018df7cccfbaa",
+          "message": "Try to fix Benchmark runs in CI (#214)",
+          "timestamp": "2026-06-09T22:23:39Z",
+          "url": "https://github.com/hwoodiwiss/ArgumentativeFilters/commit/69e9c2b7bd28ee1ab61f2f72aa2018df7cccfbaa"
+        },
+        "date": 1781044394428,
+        "benches": [
+          {
+            "name": "ArgumentativeFilters.Benchmarks.GeneratorBenchmarks.FilterGeneration",
+            "value": 52400.172688802086,
+            "unit": "ns",
+            "range": "± 517.0950703951229",
+            "bytesAllocated": 47147
+          },
+          {
+            "name": "ArgumentativeFilters.Benchmarks.GeneratorBenchmarks.MiddlewareGeneration",
+            "value": 35611.0916922433,
+            "unit": "ns",
+            "range": "± 148.56368287502508",
+            "bytesAllocated": 21723
+          }
+        ]
+      }
+    ],
+    "ArgumentativeFilters.Benchmarks.FilterAndMiddlewareBenchmarks": [
+      {
+        "commit": {
+          "author": {
+            "username": "hwoodiwiss"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "69e9c2b7bd28ee1ab61f2f72aa2018df7cccfbaa",
+          "message": "Try to fix Benchmark runs in CI (#214)",
+          "timestamp": "2026-06-09T22:23:39Z",
+          "url": "https://github.com/hwoodiwiss/ArgumentativeFilters/commit/69e9c2b7bd28ee1ab61f2f72aa2018df7cccfbaa"
+        },
+        "date": 1781044394428,
+        "benches": [
+          {
+            "name": "ArgumentativeFilters.Benchmarks.FilterAndMiddlewareBenchmarks.ValidRequest",
+            "value": 164928.83607421874,
+            "unit": "ns",
+            "range": "± 13036.282433467975",
+            "bytesAllocated": 36530
+          },
+          {
+            "name": "ArgumentativeFilters.Benchmarks.FilterAndMiddlewareBenchmarks.InvalidIdRequest",
+            "value": 172079.833125,
+            "unit": "ns",
+            "range": "± 22211.622208728888",
+            "bytesAllocated": 36565
+          }
+        ]
+      }
+    ]
+  }
+}
