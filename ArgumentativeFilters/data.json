@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1781044394428,
+  "lastUpdated": 1781112395519,
   "repoUrl": "https://github.com/hwoodiwiss/ArgumentativeFilters",
   "entries": {
     "ArgumentativeFilters.Benchmarks.GeneratorBenchmarks": [
@@ -33,6 +33,37 @@
             "bytesAllocated": 21723
           }
         ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c71c8002b01b8b0b5ced576b10e692df9326679b",
+          "message": "Bump BenchmarkDotNet from 0.14.0 to 0.15.8 (#216)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-06-10T17:17:41Z",
+          "url": "https://github.com/hwoodiwiss/ArgumentativeFilters/commit/c71c8002b01b8b0b5ced576b10e692df9326679b"
+        },
+        "date": 1781112395519,
+        "benches": [
+          {
+            "name": "ArgumentativeFilters.Benchmarks.GeneratorBenchmarks.FilterGeneration",
+            "value": 76724.66263020833,
+            "unit": "ns",
+            "range": "± 1178.502819869206",
+            "bytesAllocated": 47150
+          },
+          {
+            "name": "ArgumentativeFilters.Benchmarks.GeneratorBenchmarks.MiddlewareGeneration",
+            "value": 58148.61684570312,
+            "unit": "ns",
+            "range": "± 787.9829810143384",
+            "bytesAllocated": 21755
+          }
+        ]
       }
     ],
     "ArgumentativeFilters.Benchmarks.FilterAndMiddlewareBenchmarks": [
@@ -64,6 +95,37 @@
             "unit": "ns",
             "range": "± 22211.622208728888",
             "bytesAllocated": 36565
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c71c8002b01b8b0b5ced576b10e692df9326679b",
+          "message": "Bump BenchmarkDotNet from 0.14.0 to 0.15.8 (#216)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-06-10T17:17:41Z",
+          "url": "https://github.com/hwoodiwiss/ArgumentativeFilters/commit/c71c8002b01b8b0b5ced576b10e692df9326679b"
+        },
+        "date": 1781112395519,
+        "benches": [
+          {
+            "name": "ArgumentativeFilters.Benchmarks.FilterAndMiddlewareBenchmarks.ValidRequest",
+            "value": 192392.66330078125,
+            "unit": "ns",
+            "range": "± 23925.69812914786",
+            "bytesAllocated": 36529
+          },
+          {
+            "name": "ArgumentativeFilters.Benchmarks.FilterAndMiddlewareBenchmarks.InvalidIdRequest",
+            "value": 204660.3316015625,
+            "unit": "ns",
+            "range": "± 30006.54571248425",
+            "bytesAllocated": 36562
           }
         ]
       }
