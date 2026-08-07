@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1781039434545,
+  "lastUpdated": 1786145417044,
   "repoUrl": "https://github.com/hwoodiwiss/HwoodiwissHelper",
   "entries": {
     "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks": [
@@ -532,6 +532,44 @@
             "unit": "ns",
             "range": "± 26554.829873812523",
             "bytesAllocated": 48510
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "Copilot"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "16ba25e2d298b4a11473484595f4a619f89fa913",
+          "message": "Merge main and bump Microsoft.OpenApi to 3.9.0\n\nCo-authored-by: hwoodiwiss <2156707+hwoodiwiss@users.noreply.github.com>",
+          "timestamp": "2026-08-07T23:25:51Z",
+          "url": "https://github.com/hwoodiwiss/HwoodiwissHelper/commit/16ba25e2d298b4a11473484595f4a619f89fa913"
+        },
+        "date": 1786145417044,
+        "benches": [
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Health",
+            "value": 50711.76124572754,
+            "unit": "ns",
+            "range": "± 976.3229032593495",
+            "bytesAllocated": 11414
+          },
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Configuration",
+            "value": 137864.98357282366,
+            "unit": "ns",
+            "range": "± 1646.9476715439644",
+            "bytesAllocated": 22302
+          },
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Webhook",
+            "value": 268698.56988400826,
+            "unit": "ns",
+            "range": "± 16197.93636232959",
+            "bytesAllocated": 48526
           }
         ]
       }
