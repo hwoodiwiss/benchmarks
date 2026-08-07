@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1777454509489,
+  "lastUpdated": 1786144431707,
   "repoUrl": "https://github.com/hwoodiwiss/HwoodiwissHelper",
   "entries": {
     "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks": [
@@ -190,6 +190,44 @@
             "unit": "ns",
             "range": "± 49537.07019066244",
             "bytesAllocated": 48128
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "Copilot"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c54aec5f8e7459e56acb83ef5a420425a9f34eeb",
+          "message": "Pin Microsoft.OpenApi to 2.0.1 to fix GHSA-v5pm-xwqc-g5wc (#235)\n\n* Pin Microsoft.OpenApi to 2.0.1 to fix GHSA-v5pm-xwqc-g5wc\n\nCo-authored-by: hwoodiwiss <2156707+hwoodiwiss@users.noreply.github.com>\n\n* Bump Microsoft.OpenApi pin to 2.7.5\n\nCo-authored-by: hwoodiwiss <2156707+hwoodiwiss@users.noreply.github.com>\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: hwoodiwiss <2156707+hwoodiwiss@users.noreply.github.com>",
+          "timestamp": "2026-08-07T23:10:42Z",
+          "url": "https://github.com/hwoodiwiss/HwoodiwissHelper/commit/c54aec5f8e7459e56acb83ef5a420425a9f34eeb"
+        },
+        "date": 1786144431707,
+        "benches": [
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Health",
+            "value": 27320.120026855468,
+            "unit": "ns",
+            "range": "± 1908.4353563954799",
+            "bytesAllocated": 10637
+          },
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Configuration",
+            "value": 114972.90710449219,
+            "unit": "ns",
+            "range": "± 4050.999693485525",
+            "bytesAllocated": 21340
+          },
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Webhook",
+            "value": 275451.39314612566,
+            "unit": "ns",
+            "range": "± 17569.778858250018",
+            "bytesAllocated": 47956
           }
         ]
       }
