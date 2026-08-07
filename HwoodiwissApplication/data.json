@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1781038048372,
+  "lastUpdated": 1786141808868,
   "repoUrl": "https://github.com/hwoodiwiss/HwoodiwissApplication",
   "entries": {
     "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks": [
@@ -114,6 +114,44 @@
             "unit": "ns",
             "range": "± 2447.890199708182",
             "bytesAllocated": 13389
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "hwoodiwiss"
+          },
+          "committer": {
+            "username": "hwoodiwiss"
+          },
+          "sha": "7887c53d7ff108a99401649a134411b3ec89398d",
+          "message": "Use patched OpenAPI version for .NET 11",
+          "timestamp": "2026-08-07T22:27:44Z",
+          "url": "https://github.com/hwoodiwiss/HwoodiwissApplication/commit/7887c53d7ff108a99401649a134411b3ec89398d"
+        },
+        "date": 1786141808868,
+        "benches": [
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.Health",
+            "value": 17344.25866913377,
+            "unit": "ns",
+            "range": "± 740.2750963561642",
+            "bytesAllocated": 10788
+          },
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.Configuration",
+            "value": 81110.59705946181,
+            "unit": "ns",
+            "range": "± 3382.339664391586",
+            "bytesAllocated": 23127
+          },
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.WeatherForecast",
+            "value": 56822.76112583705,
+            "unit": "ns",
+            "range": "± 2729.3856975020144",
+            "bytesAllocated": 13311
           }
         ]
       }
