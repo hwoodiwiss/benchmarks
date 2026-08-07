@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1778897649105,
+  "lastUpdated": 1786141405192,
   "repoUrl": "https://github.com/hwoodiwiss/HwoodiwissApplication",
   "entries": {
     "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks": [
@@ -76,6 +76,44 @@
             "unit": "ns",
             "range": "± 4968.098576718725",
             "bytesAllocated": 13358
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "hwoodiwiss"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "9c8fa5469bbd6eb8aeeaf6d46042ef646c5cc737",
+          "message": "Fix vulnerable Microsoft.OpenApi dependency (#207)",
+          "timestamp": "2026-08-07T22:21:04Z",
+          "url": "https://github.com/hwoodiwiss/HwoodiwissApplication/commit/9c8fa5469bbd6eb8aeeaf6d46042ef646c5cc737"
+        },
+        "date": 1786141405192,
+        "benches": [
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.Health",
+            "value": 23867.482452392578,
+            "unit": "ns",
+            "range": "± 1240.77175811296",
+            "bytesAllocated": 10799
+          },
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.Configuration",
+            "value": 111163.87697056362,
+            "unit": "ns",
+            "range": "± 3037.3750895311346",
+            "bytesAllocated": 23128
+          },
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.WeatherForecast",
+            "value": 76288.83569824218,
+            "unit": "ns",
+            "range": "± 5333.034403703921",
+            "bytesAllocated": 13293
           }
         ]
       }
