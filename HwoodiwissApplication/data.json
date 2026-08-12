@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786141808868,
+  "lastUpdated": 1786526167463,
   "repoUrl": "https://github.com/hwoodiwiss/HwoodiwissApplication",
   "entries": {
     "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks": [
@@ -152,6 +152,44 @@
             "unit": "ns",
             "range": "± 2729.3856975020144",
             "bytesAllocated": 13311
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "hwoodiwiss"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "6482f90813344c2684d894139c828438899887b1",
+          "message": "Update Microsoft.OpenApi",
+          "timestamp": "2026-08-12T09:14:00Z",
+          "url": "https://github.com/hwoodiwiss/HwoodiwissApplication/commit/6482f90813344c2684d894139c828438899887b1"
+        },
+        "date": 1786526167463,
+        "benches": [
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.Health",
+            "value": 17527.726623535156,
+            "unit": "ns",
+            "range": "± 470.0357526396161",
+            "bytesAllocated": 10782
+          },
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.Configuration",
+            "value": 80682.55623372395,
+            "unit": "ns",
+            "range": "± 3752.302253852156",
+            "bytesAllocated": 23120
+          },
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.WeatherForecast",
+            "value": 54749.60519205729,
+            "unit": "ns",
+            "range": "± 2046.7612095264128",
+            "bytesAllocated": 13329
           }
         ]
       }
