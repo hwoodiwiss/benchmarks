@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786144431707,
+  "lastUpdated": 1786544645472,
   "repoUrl": "https://github.com/hwoodiwiss/HwoodiwissHelper",
   "entries": {
     "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks": [
@@ -228,6 +228,44 @@
             "unit": "ns",
             "range": "± 17569.778858250018",
             "bytesAllocated": 47956
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "hwoodiwiss"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "befd0ec4d2e049af66cdd796a15acf006f36c449",
+          "message": "Update to .NET 11 (#178)\n\n* Update to .NET 11 Preview 2\n\n* Specify container base image\n\n* Enable runtime-async\n\n* Use net11.0 for benchmarks\n\n* Disable runtime async  for comparison\n\n* Re-enable runtime async\n\n* Update to .NET 11 Preview 4 (#214)\n\n* Update to .NET 11 Preview 4\n\n* Run build on push and pr to dotnet-vnext\n\n* Remove un-necessary workaround\n\n* Update HwoodiwissApplication\n\n* Update to .NET 11 Preview 5 (#219)\n\nUpdates to .NET 11 Preview 5, including opting in to AOT dotnet CLI\n\n* Update to .NET 11 preview 6\n\nCo-authored-by: hwoodiwiss <2156707+hwoodiwiss@users.noreply.github.com>\n\n* Update to .NET 11 preview 7\n\nCo-authored-by: hwoodiwiss <2156707+hwoodiwiss@users.noreply.github.com>\n\n* Keep prerelease selection pinned in global.json\n\nCo-authored-by: hwoodiwiss <2156707+hwoodiwiss@users.noreply.github.com>\n\n* Fix Blazor JS interop analyzer build errors\n\nCo-authored-by: hwoodiwiss <2156707+hwoodiwiss@users.noreply.github.com>\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-08-12T14:21:11Z",
+          "url": "https://github.com/hwoodiwiss/HwoodiwissHelper/commit/befd0ec4d2e049af66cdd796a15acf006f36c449"
+        },
+        "date": 1786544645472,
+        "benches": [
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Health",
+            "value": 56628.786938476565,
+            "unit": "ns",
+            "range": "± 1925.5173858135522",
+            "bytesAllocated": 12313
+          },
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Configuration",
+            "value": 136603.03669621394,
+            "unit": "ns",
+            "range": "± 1058.000009124334",
+            "bytesAllocated": 23157
+          },
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Webhook",
+            "value": 281967.01807776163,
+            "unit": "ns",
+            "range": "± 30082.889505863703",
+            "bytesAllocated": 48713
           }
         ]
       }
