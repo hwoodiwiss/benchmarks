@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786141405192,
+  "lastUpdated": 1786526461261,
   "repoUrl": "https://github.com/hwoodiwiss/HwoodiwissApplication",
   "entries": {
     "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks": [
@@ -114,6 +114,44 @@
             "unit": "ns",
             "range": "± 5333.034403703921",
             "bytesAllocated": 13293
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "hwoodiwiss"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a478f4fceb01aab8531afa4e2e1e6ce6eea16a36",
+          "message": "Update to .NET 11 Preview 7 (#89)\n\n* Update to .NET 11 Preview 2\n\n* Normalize line endings for clean merge\n\n* Update to .NET 11 Preview 4 (#155)\n\n* Enable runtime async\n\nEnables RuntimeAsync so we can see if there is a performance impact\n\n* Make Runtime Async enabled from .NET 11 onwards\n\n* Update to .NET 11 Preview 5 (#168)\n\nUpdates to .NET 11 Preview 5 including enabling AOT SDK\n\n* Update to .NET 11 Preview 6\n\nCo-authored-by: hwoodiwiss <2156707+hwoodiwiss@users.noreply.github.com>\n\n* Update .NET 11 Preview 6 package dependencies\n\nCo-authored-by: hwoodiwiss <2156707+hwoodiwiss@users.noreply.github.com>\n\n* Fix OpenAPI pin for .NET 11\n\n* Use patched OpenAPI version for .NET 11\n\n* Update to .NET 11 Preview 7\n\nCo-authored-by: hwoodiwiss <2156707+hwoodiwiss@users.noreply.github.com>\n\n* Update Microsoft.OpenApi\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-08-12T09:18:57Z",
+          "url": "https://github.com/hwoodiwiss/HwoodiwissApplication/commit/a478f4fceb01aab8531afa4e2e1e6ce6eea16a36"
+        },
+        "date": 1786526461261,
+        "benches": [
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.Health",
+            "value": 16781.946344549007,
+            "unit": "ns",
+            "range": "± 525.1324374007381",
+            "bytesAllocated": 10611
+          },
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.Configuration",
+            "value": 79663.4697265625,
+            "unit": "ns",
+            "range": "± 4000.330534435252",
+            "bytesAllocated": 22940
+          },
+          {
+            "name": "HwoodiwissApplication.Benchmarks.HwoodiwissApplicationBenchmarks.WeatherForecast",
+            "value": 54204.0241960798,
+            "unit": "ns",
+            "range": "± 1551.5995748637627",
+            "bytesAllocated": 13148
           }
         ]
       }
