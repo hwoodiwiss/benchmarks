@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786544645472,
+  "lastUpdated": 1786611894904,
   "repoUrl": "https://github.com/hwoodiwiss/HwoodiwissHelper",
   "entries": {
     "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks": [
@@ -266,6 +266,44 @@
             "unit": "ns",
             "range": "± 30082.889505863703",
             "bytesAllocated": 48713
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "hwoodiwiss"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "de72357247e2eadb57dad30b625475b535b61ba4",
+          "message": "Use CoreCLR for WASM UI (#240)\n\n* Use CoreCLR for WASM UI\n\n* Install multiple versions of skd for benchmark",
+          "timestamp": "2026-08-13T09:01:52Z",
+          "url": "https://github.com/hwoodiwiss/HwoodiwissHelper/commit/de72357247e2eadb57dad30b625475b535b61ba4"
+        },
+        "date": 1786611894904,
+        "benches": [
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Health",
+            "value": 57405.56876627604,
+            "unit": "ns",
+            "range": "± 1001.6763970354",
+            "bytesAllocated": 12307
+          },
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Configuration",
+            "value": 126352.51422526041,
+            "unit": "ns",
+            "range": "± 1523.3666137016337",
+            "bytesAllocated": 23156
+          },
+          {
+            "name": "HwoodiwissHelper.Benchmarks.HwoodiwissHelperBenchmarks.Webhook",
+            "value": 266345.99052159925,
+            "unit": "ns",
+            "range": "± 14325.182744957576",
+            "bytesAllocated": 49023
           }
         ]
       }
