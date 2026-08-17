@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1781112395519,
+  "lastUpdated": 1787007200125,
   "repoUrl": "https://github.com/hwoodiwiss/ArgumentativeFilters",
   "entries": {
     "ArgumentativeFilters.Benchmarks.GeneratorBenchmarks": [
@@ -64,6 +64,37 @@
             "bytesAllocated": 21755
           }
         ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "hwoodiwiss"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7cdf1aebbcfd24ef429fc0485968041bbccb2daf",
+          "message": "Transitively pin Microsoft.OpenApi (#247)",
+          "timestamp": "2026-08-17T22:51:23Z",
+          "url": "https://github.com/hwoodiwiss/ArgumentativeFilters/commit/7cdf1aebbcfd24ef429fc0485968041bbccb2daf"
+        },
+        "date": 1787007200125,
+        "benches": [
+          {
+            "name": "ArgumentativeFilters.Benchmarks.GeneratorBenchmarks.FilterGeneration",
+            "value": 20365.331438337053,
+            "unit": "ns",
+            "range": "± 90.95940386504016",
+            "bytesAllocated": 47204
+          },
+          {
+            "name": "ArgumentativeFilters.Benchmarks.GeneratorBenchmarks.MiddlewareGeneration",
+            "value": 15464.64060320173,
+            "unit": "ns",
+            "range": "± 60.19982936210201",
+            "bytesAllocated": 21753
+          }
+        ]
       }
     ],
     "ArgumentativeFilters.Benchmarks.FilterAndMiddlewareBenchmarks": [
@@ -126,6 +157,37 @@
             "unit": "ns",
             "range": "± 30006.54571248425",
             "bytesAllocated": 36562
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "hwoodiwiss"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7cdf1aebbcfd24ef429fc0485968041bbccb2daf",
+          "message": "Transitively pin Microsoft.OpenApi (#247)",
+          "timestamp": "2026-08-17T22:51:23Z",
+          "url": "https://github.com/hwoodiwiss/ArgumentativeFilters/commit/7cdf1aebbcfd24ef429fc0485968041bbccb2daf"
+        },
+        "date": 1787007200125,
+        "benches": [
+          {
+            "name": "ArgumentativeFilters.Benchmarks.FilterAndMiddlewareBenchmarks.ValidRequest",
+            "value": 85270.02295918367,
+            "unit": "ns",
+            "range": "± 8596.422374038675",
+            "bytesAllocated": 36673
+          },
+          {
+            "name": "ArgumentativeFilters.Benchmarks.FilterAndMiddlewareBenchmarks.InvalidIdRequest",
+            "value": 90634.94013772551,
+            "unit": "ns",
+            "range": "± 9649.309019679848",
+            "bytesAllocated": 36705
           }
         ]
       }
