@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1787007200125,
+  "lastUpdated": 1792571650236,
   "repoUrl": "https://github.com/hwoodiwiss/ArgumentativeFilters",
   "entries": {
     "ArgumentativeFilters.Benchmarks.GeneratorBenchmarks": [
@@ -95,6 +95,50 @@
             "bytesAllocated": 21753
           }
         ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "hwoodiwiss"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b757ffd326009f64c04361104de7bc7a41dc5f2b",
+          "message": "Update CodeQL init action to version 4.39.0",
+          "timestamp": "2026-10-21T08:31:55Z",
+          "url": "https://github.com/hwoodiwiss/ArgumentativeFilters/commit/b757ffd326009f64c04361104de7bc7a41dc5f2b"
+        },
+        "date": 1792571650236,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "ArgumentativeFilters.Benchmarks.GeneratorBenchmarks.FilterGeneration",
+            "value": 84098.92487444196,
+            "unit": "ns",
+            "range": "± 400.5863534415825",
+            "bytesAllocated": 48244
+          },
+          {
+            "name": "ArgumentativeFilters.Benchmarks.GeneratorBenchmarks.MiddlewareGeneration",
+            "value": 62641.488002232145,
+            "unit": "ns",
+            "range": "± 720.5049910830695",
+            "bytesAllocated": 22506
+          }
+        ]
       }
     ],
     "ArgumentativeFilters.Benchmarks.FilterAndMiddlewareBenchmarks": [
@@ -188,6 +232,50 @@
             "unit": "ns",
             "range": "± 9649.309019679848",
             "bytesAllocated": 36705
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "hwoodiwiss"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b757ffd326009f64c04361104de7bc7a41dc5f2b",
+          "message": "Update CodeQL init action to version 4.39.0",
+          "timestamp": "2026-10-21T08:31:55Z",
+          "url": "https://github.com/hwoodiwiss/ArgumentativeFilters/commit/b757ffd326009f64c04361104de7bc7a41dc5f2b"
+        },
+        "date": 1792571650236,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "ArgumentativeFilters.Benchmarks.FilterAndMiddlewareBenchmarks.ValidRequest",
+            "value": 199876.88052645596,
+            "unit": "ns",
+            "range": "± 11246.607046649176",
+            "bytesAllocated": 36601
+          },
+          {
+            "name": "ArgumentativeFilters.Benchmarks.FilterAndMiddlewareBenchmarks.InvalidIdRequest",
+            "value": 189045.1961829144,
+            "unit": "ns",
+            "range": "± 9106.948905043499",
+            "bytesAllocated": 36633
           }
         ]
       }
