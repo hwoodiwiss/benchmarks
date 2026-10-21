@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1792571650236,
+  "lastUpdated": 1792572141122,
   "repoUrl": "https://github.com/hwoodiwiss/ArgumentativeFilters",
   "entries": {
     "ArgumentativeFilters.Benchmarks.GeneratorBenchmarks": [
@@ -139,6 +139,50 @@
             "bytesAllocated": 22506
           }
         ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "hwoodiwiss"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ab80d06402ca114c3060fe6b9b97660cd5194ce6",
+          "message": "Add CodeQL group to Dependabot configuration (#274)",
+          "timestamp": "2026-10-21T08:40:29Z",
+          "url": "https://github.com/hwoodiwiss/ArgumentativeFilters/commit/ab80d06402ca114c3060fe6b9b97660cd5194ce6"
+        },
+        "date": 1792572141122,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "INTEL XEON PLATINUM 8573C",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "ArgumentativeFilters.Benchmarks.GeneratorBenchmarks.FilterGeneration",
+            "value": 43488.006103515625,
+            "unit": "ns",
+            "range": "± 631.6565630819649",
+            "bytesAllocated": 48242
+          },
+          {
+            "name": "ArgumentativeFilters.Benchmarks.GeneratorBenchmarks.MiddlewareGeneration",
+            "value": 32875.4410929362,
+            "unit": "ns",
+            "range": "± 442.5812141224215",
+            "bytesAllocated": 22601
+          }
+        ]
       }
     ],
     "ArgumentativeFilters.Benchmarks.FilterAndMiddlewareBenchmarks": [
@@ -275,6 +319,50 @@
             "value": 189045.1961829144,
             "unit": "ns",
             "range": "± 9106.948905043499",
+            "bytesAllocated": 36633
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "hwoodiwiss"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ab80d06402ca114c3060fe6b9b97660cd5194ce6",
+          "message": "Add CodeQL group to Dependabot configuration (#274)",
+          "timestamp": "2026-10-21T08:40:29Z",
+          "url": "https://github.com/hwoodiwiss/ArgumentativeFilters/commit/ab80d06402ca114c3060fe6b9b97660cd5194ce6"
+        },
+        "date": 1792572141122,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "INTEL XEON PLATINUM 8573C",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "ArgumentativeFilters.Benchmarks.FilterAndMiddlewareBenchmarks.ValidRequest",
+            "value": 195224.30604208668,
+            "unit": "ns",
+            "range": "± 5859.042821706324",
+            "bytesAllocated": 36600
+          },
+          {
+            "name": "ArgumentativeFilters.Benchmarks.FilterAndMiddlewareBenchmarks.InvalidIdRequest",
+            "value": 190817.22936480978,
+            "unit": "ns",
+            "range": "± 6993.145449289048",
             "bytesAllocated": 36633
           }
         ]
